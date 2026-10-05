@@ -1,0 +1,4 @@
+# One Bitwarden item name per line. Lines starting with # are ignored.
+Service - Prod US
+Service - Prod EU
+Service - Staging

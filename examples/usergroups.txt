@@ -1,0 +1,3 @@
+# One ACL group name per line (case-insensitive).
+Example Administrator
+Example Viewer

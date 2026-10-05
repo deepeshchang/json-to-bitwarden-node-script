@@ -1,0 +1,15 @@
+{
+  "username": "{{username}}",
+  "enabled": true,
+  "firstName": "{{firstName}}",
+  "lastName": "{{lastName}}",
+  "email": "{{email}}",
+  "invite_via_email": false,
+  "credentials": [
+    { "type": "password", "value": "{{password}}", "temporary": false }
+  ],
+  "attributes": {
+    "group_id": "{{groupIdsJson}}",
+    "language": "{{language}}"
+  }
+}

@@ -1,0 +1,4 @@
+# One Bitwarden item name per line (admin accounts to provision from).
+# The customer label is the last " - " segment of the name.
+Admin - Acme - CustomerA
+Admin - Acme - CustomerB

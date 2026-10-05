@@ -1,0 +1,10 @@
+[
+  {
+    "name": "My Service - Prod",
+    "username": "admin",
+    "password": "change-me",
+    "collection_ids": ["xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"],
+    "uris": ["https://example.com"],
+    "notes": "Optional notes"
+  }
+]

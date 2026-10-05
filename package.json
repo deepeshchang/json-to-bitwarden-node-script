@@ -1,0 +1,53 @@
+{
+  "name": "vaultsmith",
+  "version": "1.0.0",
+  "description": "Rotate, create and audit credentials across many API-backed instances, with Bitwarden as the source of truth",
+  "license": "GPL-3.0-only",
+  "keywords": [
+    "bitwarden",
+    "password-rotation",
+    "credential-management",
+    "secrets",
+    "bulk",
+    "cli",
+    "vaultsmith"
+  ],
+  "main": "lib/api.js",
+  "bin": {
+    "vaultsmith": "bin/vaultsmith.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "scripts",
+    "templates",
+    "examples",
+    ".env.example"
+  ],
+  "scripts": {
+    "add-credentials": "node scripts/addcredentials.js",
+    "search-users": "node scripts/searchuser.js",
+    "check-logins": "node scripts/loginchecker.js",
+    "check-api-access": "node scripts/checkapiaccess.js",
+    "change-passwords": "node scripts/bulkpasswordchanger.js",
+    "update-passwords": "node scripts/updatepasswords.js",
+    "create-users": "node scripts/createusers.js",
+    "lint": "eslint .",
+    "test": "node --test",
+    "check": "npm run lint && npm test"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepeshchang/vaultsmith.git"
+  },
+  "author": "Deepesh Chang"
+}

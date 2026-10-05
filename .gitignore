@@ -1,0 +1,23 @@
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Bitwarden session tokens (if ever written to file)
+*.session
+
+# Local input/output files — contain real usernames, customer names, infrastructure details,
+# and (for createdusers.json / rotation-recovery.jsonl) plaintext passwords.
+# Templates to copy live in examples/.
+assets/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
